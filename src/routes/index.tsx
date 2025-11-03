@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
+import seaBeachRelaxingVideo from "../assets/sea-beach realx.mp4";
 import { Card } from "../components/Card";
-import logo from "../assets/tanstack-lab.jpg";
 
 export const Route = createFileRoute("/")({
   component: HomePage,
@@ -23,16 +23,17 @@ function HomePage() {
             marginTop: "30px",
           }}
         >
-          <img
-            src={logo}
-            alt="Tanstack Lab Logo"
+          <video
+            src={seaBeachRelaxingVideo}
+            autoPlay
+            loop
+            muted
+            playsInline
             style={{
-              width: "100%",
-              maxWidth: "250px",
+              width: "150px",
               height: "auto",
-              objectFit: "contain",
             }}
-          />
+          ></video>
         </div>
       </header>
       <section style={{ marginBottom: "40px" }}>

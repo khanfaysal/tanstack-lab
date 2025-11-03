@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@lottiefiles/dotlottie-react": "^0.17.6",
     "@tanstack/react-router": "^1.134.9",
     "@tanstack/react-start": "^1.134.9",
     "react-dom": "^19.2.0"
